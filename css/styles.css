@@ -164,9 +164,9 @@ footer {
 .container-main-md, .container-main-lg {
     display: flex;
     flex-wrap: wrap;
-    width: 98%;
-    margin-left: 1%;
-    margin-right: 1%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .text-about {
@@ -190,9 +190,9 @@ footer {
 .row {
     display: flex;
     flex-wrap: wrap;
-    width: 98%;
-    margin-right: 1%;
-    margin-left: 1%;
+    width: 96%;
+    margin-right: 2%;
+    margin-left: 2%;
     margin-top: 50px;
     font-size: 18px;
 }
@@ -249,7 +249,10 @@ footer {
 /*Footer*/
 
 .container-footer {
+    width: 96%;
     margin-top: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
     padding: 2px
 }
 
@@ -259,6 +262,20 @@ footer {
 
 /*End footer*/
 /*Media*/
+
+@media (min-width: 1200px) {
+    .container-main-md, .container-main-lg {
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .row {
+        width: 92%;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+}
 
 @media (min-width: 910px) {
     #time-sm {
