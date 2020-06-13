@@ -57,6 +57,11 @@ footer {
     margin-bottom: 0;
 }
 
+.container-info p a {
+    color: #4A3021;
+    text-decoration: none;
+}
+
 .icon {
     height: 23px;
     width: 23px;
