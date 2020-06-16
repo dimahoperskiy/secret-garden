@@ -4,11 +4,11 @@
 
     // Hamburger
 
-    $('.menu-link').click(function (e) {
-        e.preventDefault()
-        $('.nav-lg').toggleClass('show-nav')
-        $('.container-nav').toggleClass('show-col')
-    })
+    // $('.menu-link').click(function (e) {
+    //     e.preventDefault()
+    //     $('.nav-lg').toggleClass('show-nav')
+    //     $('.container-nav').toggleClass('show-col')
+    // })
 
     // Slider
 
@@ -22,7 +22,12 @@
         autoplayHoverPause:true
     });
 
-
+    $(".ham").click(function(e){
+        e.preventDefault()
+        $('.ham').toggleClass("is-active");
+        $('.nav-lg').toggleClass('show-nav')
+        $('.container-nav').toggleClass('show-col')
+    });
 
 
 })(jQuery);
